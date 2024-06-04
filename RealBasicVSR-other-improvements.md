@@ -13,7 +13,8 @@
 
 我先从快手下载了一个视频，发现其分辨率如下：
 
-![image-20240604210727326](C:\Users\Dell\AppData\Roaming\Typora\typora-user-images\image-20240604210727326.png)
+![image](https://github.com/Gilgameshzhangqihang/RealBasicVSR-other-improvements/assets/94230006/c95f1dfe-b02f-4f0e-a6d6-775ecbb8736c)
+
 
 其分辨率已经快达到警告的1000了，并且其帧率也有60，该视频是55s，通过视频分成图片的函数，最后得到了3000多张图片，所以运行RealBasicVSR给的源代码会出现超出显存的提示，基本上每次都会。
 
@@ -31,17 +32,20 @@
 
 **效果如图所示：**
 
-![运行](F:\阿里云盘Open\理工科学习\创建的虚拟环境\测试视频对比\运行.png)
+![image](https://github.com/Gilgameshzhangqihang/RealBasicVSR-other-improvements/assets/94230006/bede8c57-b3b2-4b33-87cc-22902f294a41)
+
 
 发现处理了7个半小时才处理好，然后用代码将图片合成为视频，得到了我最终想要的。
 
 **原图片占比：**
 
-![1](F:\阿里云盘Open\理工科学习\创建的虚拟环境\测试视频对比\1.png)
+![image](https://github.com/Gilgameshzhangqihang/RealBasicVSR-other-improvements/assets/94230006/5607f500-7dab-48b9-8f24-dc0a16465e4e)
+
 
 **处理之后**
 
-![2](F:\阿里云盘Open\理工科学习\创建的虚拟环境\测试视频对比\2.png)
+![image](https://github.com/Gilgameshzhangqihang/RealBasicVSR-other-improvements/assets/94230006/95ab7d60-bc6a-4e8c-b6d4-3145ab33fb99)
+
 
 ## 代码
 
